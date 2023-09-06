@@ -23,12 +23,12 @@ function About() {
   const Outils = ["Git", "Webpack", "Netlify", "Firebase", "Babel"];
 
   return (
-    <div className="p-14 h-[calc(100vh+50rem)] md:h-[calc(100vh)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
+    <div className="p-14  md:h-[calc(100vh+10rem)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
-        <h1 className="text-2xl font-extrabold">
-          <span className="text-orange">1.</span> Qui suis-je ?
+        <h1 className="text-2xl font-extrabold md:text-4xl">
+          <span className="text-orange ">1.</span> QUI SUIS-JE ?
         </h1>
-        <span className=" w-10 h-1 bg-graydark ml-5 rounded-sm"></span>
+        <span className=" w-10 h-1 bg-graydark ml-5 rounded-sm md:w-60"></span>
       </div>
       <div className="flex flex-col gap-14 justify-center  md:flex-row ">
         <div className="flex md:justify-center mx-auto md:w-52 md:mx-0 md:h-60 border-2 rounded-sm border-orange">
@@ -71,7 +71,7 @@ function About() {
           </div>
           <h1 className="mb-2 underline">Librairies & Frameworks :</h1>
           <div className="flex">
-            <ul className="grid grid-cols-2 gap-5 text-xs  ">
+            <ul className="grid grid-cols-3 gap-5 text-xs  ">
               {librairies.map((item) => (
                 <li>
                   {" "}
@@ -93,7 +93,7 @@ function About() {
           </div>
           <h1 className="mb-2 underline">Outils :</h1>
           <div className="flex ">
-            <ul className="grid grid-cols-2 gap-5 text-xs">
+            <ul className="grid grid-cols-3 gap-5 text-xs">
               {Outils.map((item) => (
                 <li>
                   {" "}
