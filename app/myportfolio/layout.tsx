@@ -1,10 +1,16 @@
-import React from 'react';
-import NavBar from '../../components/navbar/NavBar';
+import React from "react";
+import NavBar from "../../components/navbar/NavBar";
+import Footer from "../../components/footer/Footer";
+import Keepintouch from "../../components/keepintouch/keepintouch";
 
-function layout() {
+function layout({ children }) {
   return (
-    <div><NavBar /></div>
-  )
+    <div>
+      <NavBar />
+      {children}
+      <Footer />
+    </div>
+  );
 }
 
-export default layout
+export default layout;

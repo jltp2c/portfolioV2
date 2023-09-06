@@ -1,0 +1,12 @@
+.portrait{
+    transform: translate(-25px, 25px) ;
+    background-color: orange;
+    filter: opacity(0.8) drop-shadow(0 0 0 #FF700A); 
+    transition: 0.2s ease-in-out all;
+}
+
+.portrait:hover {
+    transform: translate(-10px, 10px);
+    filter: none;
+    transition: 0.2s ease-in-out all;
+}
