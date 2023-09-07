@@ -19,7 +19,7 @@ function Projets() {
   };
 
   return (
-    <div className="p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
+    <div className=" projets p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
         <h1 className="text-2xl font-extrabold md:text-4xl">
           <span className="text-orange ">3.</span> MES PROJETS

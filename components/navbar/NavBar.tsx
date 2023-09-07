@@ -1,6 +1,6 @@
 "use client";
-import Link from "next/link";
 
+import { Link } from "react-scroll";
 import styles from "./navbar.module.css";
 
 function NavBar() {
@@ -16,30 +16,54 @@ function NavBar() {
       <div className={styles.menu}>
         <div>
           <ul className="md:flex md:justify-end m-2 gap-6 p-1 text-sm">
-            <li>
-              <Link href="/myportfolio/quisuisje">
+            <li className="cursor-pointer">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}>
                 <span className={styles.number}>1.</span> Qui suis-je
               </Link>
             </li>
-            <li>
-              <Link href="/myportfolio/experiences">
+            <li className="cursor-pointer">
+              <Link
+                activeClass="active"
+                to="experiences"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}>
                 <span className={styles.number}>2.</span> Experiences
               </Link>
             </li>
-            <li>
-              <Link href="/myportfolio/projets">
+            <li className="cursor-pointer">
+              <Link
+                activeClass="active"
+                to="projets"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}>
                 <span className={styles.number}>3.</span> Projets
               </Link>
             </li>
-            <li>
-              <Link href="/myportfolio/contact">
+            <li className="cursor-pointer">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}>
                 <span className={styles.number}>4.</span> Contact
               </Link>
             </li>
-            <li>
-              <Link href="#">
-                <span className={styles.cv}>CV</span>
-              </Link>
+            <li className="cursor-pointer">
+              <a href="/assets/cv/cv.pdf" target="_blank">
+                <span className={styles.cv}>Curriculum Vitae</span>
+              </a>
             </li>
           </ul>
         </div>

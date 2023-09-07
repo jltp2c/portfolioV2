@@ -7,7 +7,7 @@ function Experiences() {
   const [selected, setSelected] = useState(0);
 
   return (
-    <div className="p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto">
+    <div className="experiences p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto">
       <div className="w-full flex items-center ">
         <h1 className="text-2xl font-extrabold md:text-4xl">
           <span className="text-orange ">2.</span> MES EXPÉRIENCES

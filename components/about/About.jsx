@@ -23,7 +23,7 @@ function About() {
   const Outils = ["Git", "Webpack", "Netlify", "Firebase", "Babel"];
 
   return (
-    <div className="p-14 md:h-[calc(100vh+10rem)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
+    <div className="about p-14 md:h-[calc(100vh+10rem)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
         <h1 className="text-2xl font-extrabold md:text-4xl">
           <span className="text-orange ">1.</span> QUI SUIS-JE ?
