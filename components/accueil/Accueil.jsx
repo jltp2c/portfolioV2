@@ -16,11 +16,11 @@ function Accueil() {
       <h3 className="text-gray font-extrabold text-4xl  md:text-5xl ">
         Je développe des solutions WEB créatives et durables.
       </h3>
-      <p className="text-gray  text-md md:text-xl ">
+      <p className="text-gray  text-sm md:text-xl ">
         Ingénieur et développeur WEB, je suis à la recherche de
         <span className="text-orange"> nouvelles opportunités</span> dans le
         développement WEB avec une spécialisation
-        <span className="text-orange"> Front-end/FullStack</span>
+        <span className="text-orange"> Front-end/FullStack.</span>
       </p>
     </div>
   );

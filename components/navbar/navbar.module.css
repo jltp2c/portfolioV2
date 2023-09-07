@@ -161,10 +161,9 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 .cv{
     border:2px solid #FF700A ;
-    padding: 8px;
+    padding: 6px;
     color: #FF700A;
     border-radius: 2px;
-   
 }
 .cv:hover{
     background-color: #ed3b1384;
