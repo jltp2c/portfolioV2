@@ -14,13 +14,16 @@ function Experiences() {
         </h1>
         <span className="w-10 h-1 bg-graydark ml-5 rounded-sm md:w-44"></span>
       </div>
-      <h1 className="font-bold mt-10">Expériences professionnelles</h1>
+      <h1 className="font-bold mt-10 md:text-xl">
+        Expériences professionnelles
+      </h1>
       <div className="flex flex-col justify-center gap-8 md:flex-row w-2/3">
         <div className="title flex gap-1 justify-center items-center md:flex-col md:justify-normal">
           {experiences.map((exp, index) => {
             return (
               <button
                 className="rounded-sm p-1 m-2 transition-transform text-xs"
+                key={index}
                 style={{
                   background: selected === index ? "#ff700a3c" : "#111111",
                   color: selected === index ? "#ff700a" : "#8492a6",
@@ -49,7 +52,7 @@ function Experiences() {
           ))}
         </div>
       </div>
-      <h1 className="font-bold">Formations</h1>
+      <h1 className="font-bold md:text-xl">Formations</h1>
       <Formations />
     </div>
   );
