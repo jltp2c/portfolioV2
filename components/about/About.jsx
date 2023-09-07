@@ -28,7 +28,7 @@ function About() {
         <h1 className="text-2xl font-extrabold md:text-4xl">
           <span className="text-orange ">1.</span> QUI SUIS-JE ?
         </h1>
-        <span className=" w-10 h-1 bg-graydark ml-5 rounded-sm md:w-60"></span>
+        <span className=" w-10 h-1 bg-graydark ml-5 rounded-sm md:w-60 lg:w-96"></span>
       </div>
       <div className="flex flex-col gap-14 justify-center  md:flex-row ">
         <div className="flex md:justify-center mx-auto  md:mx-0 md:h-60 border-2 rounded-sm border-orange text-justify">

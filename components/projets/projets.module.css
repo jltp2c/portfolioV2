@@ -1,18 +1,59 @@
 .projetBox{
     border : 1px solid #111111;
     border-radius: 5px;
-    width: 340px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
     padding: 30px;
     position: relative;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 14px;
     
 }
+.imagePro{
+       visibility: hidden;
+}
+.imageGif{
+        visibility: hidden;
+    }
+@media screen and (min-width:640px) {
+    .projetBox{
+    width: 550px;
+    height: 400px;
+}
+}
+
+@media screen and (min-width:768px) {
+    .projetBox{
+    box-shadow : none;
+}
+    .imagePro{
+        visibility: visible;
+       filter: opacity(0.03) drop-shadow(0 0 0 #FF700A); 
+    }
+    .imageGif{
+        visibility: visible;
+        border-radius: 10px;
+    }
+    
+}
+
+
+.link{
+   position: absolute;
+   bottom: -40px;
+   left: 10px;
+   opacity: 0.5;
+   transition: 0.4s ease all;
+}
+
+.link:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease all;
+}
 
 .github{
    position: absolute;
-   bottom: 0;
-   right: -40px;
+   bottom: -40px;
+   left: 40px;
    opacity: 0.5;
    transition: 0.4s ease all;
 }
@@ -22,16 +63,6 @@
     transition: 0.4s ease all;
 }
 
-.link{
-   position: absolute;
-   bottom: 30px;
-   right: -40px;
-   opacity: 0.5;
-   transition: 0.4s ease all;
-}
 
-.link:hover{
-    transform: scale(1.2);
-    transition: 0.4s ease all;
-}
+
 /* border-2 border-graydark rounded-md w-72 h-80 bg-navbg */

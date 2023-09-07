@@ -5,7 +5,7 @@ import { useState } from "react";
 function Formations() {
   const [selected, setSelected] = useState(0);
   return (
-    <div className="flex flex-col justify-center gap-8 md:flex-row w-2/3">
+    <div className="flex flex-col justify-center gap-8 md:flex-row md:w-2/3">
       <div className="title  flex gap-1 justify-center items-center md:flex-col md:justify-normal	">
         {formations.map((exp, index) => {
           return (

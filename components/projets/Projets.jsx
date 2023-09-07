@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
+
 import { bigProjects } from "./dataProjects";
 import styles from "./projets.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 function Projets() {
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
   return (
     <div className="p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
@@ -17,52 +30,85 @@ function Projets() {
         {bigProjects.map((projet) => {
           return (
             <div key={projet.id} className={styles.projetBox}>
-              <h1 className="text-sm text-orange">{projet.status}</h1>
-              <h2 className="text-xl font-extrabold mb-5">{projet.title}</h2>
-              <p className="text-gray text-sm mb-5">{projet.desc}</p>
-              <h3 className="text-gray text-sm mb-10">{projet.stacks}</h3>
+              <Link href={projet.link}>
+                <div className="  md:translate-x-36  md:flex md:flex-col md:text-right">
+                  <h1 className="text-sm text-orange ">{projet.status}</h1>
+                  <Link href={projet.link}>
+                    <h2 className="text-2xl font-extrabold mb-5 hover:text-orange">
+                      {projet.title}
+                    </h2>
+                  </Link>
+                  <div className="md:bg-graydark md:p-5 md:rounded-md">
+                    <p className="text-gray text-sm mb-5">{projet.desc}</p>
+                    <h3 className="text-lightgray text-sm mb-10">
+                      {projet.stacks}
+                    </h3>
+                  </div>
+                </div>
 
-              <div className="flex justify-center z-0">
-                {projet.onBuild ? (
-                  <Image
-                    src="/assets/img/encours.png"
-                    alt={projet.title}
-                    className=" drop-shadow-sm"
-                    width={60}
-                    height={60}
-                  />
-                ) : (
-                  ""
-                )}
-              </div>
-              <div className="icones">
-                {projet.github === "" ? (
-                  ""
-                ) : (
-                  <Link href={projet.github}>
+                <div className="flex justify-center ">
+                  {projet.onBuild ? (
                     <Image
-                      src="/assets/img/github.png"
+                      src="/assets/img/encours.png"
+                      alt={projet.title}
+                      className=" drop-shadow-sm"
+                      width={60}
+                      height={60}
+                    />
+                  ) : (
+                    ""
+                  )}
+                </div>
+                <div className="icones">
+                  {projet.github === "" ? (
+                    ""
+                  ) : (
+                    <Link href={projet.github}>
+                      <Image
+                        src="/assets/img/github.png"
+                        width={20}
+                        height={20}
+                        className={styles.github}
+                      />
+                    </Link>
+                  )}
+                  <Link href={projet.link}>
+                    <Image
+                      src="/assets/img/link.png"
                       width={20}
                       height={20}
-                      className={styles.github}
+                      className={styles.link}
                     />
                   </Link>
-                )}
-                <Link href={projet.link}>
+                </div>
+                <Image
+                  src={projet.img}
+                  alt={projet.title}
+                  className=" drop-shadow-sm opacity-5 md:hidden"
+                  fill
+                />
+                {/* 768 px pour le changement dimage */}
+                <div
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}>
                   <Image
-                    src="/assets/img/link.png"
-                    width={20}
-                    height={20}
-                    className={styles.link}
+                    src={projet.img}
+                    alt={projet.title}
+                    className={styles.imagePro}
+                    fill
                   />
-                </Link>
-              </div>
-              <Image
-                src={projet.img}
-                alt={projet.title}
-                className="opacity-5 drop-shadow-sm"
-                fill
-              />
+                  <Link href={projet.link}>
+                    {hovered && (
+                      <Image
+                        src={projet.gif}
+                        alt={projet.title}
+                        className={styles.imageGif}
+                        fill
+                      />
+                    )}
+                  </Link>
+                </div>
+              </Link>
             </div>
           );
         })}
