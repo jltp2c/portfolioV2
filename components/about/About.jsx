@@ -69,8 +69,8 @@ function About() {
           </h1>
           <div className="flex">
             <ul className="grid grid-cols-2 gap-5 text-xs">
-              {langages.map((item) => (
-                <li>
+              {langages.map((item, ind) => (
+                <li key={ind}>
                   {" "}
                   <span className="text-orange l">▹</span> {item}
                 </li>
@@ -80,8 +80,8 @@ function About() {
           <h1 className="mb-2 underline text-sm ">Librairies & Frameworks :</h1>
           <div className="flex text-justify">
             <ul className="grid grid-cols-3 gap-5 text-xs  ">
-              {librairies.map((item) => (
-                <li>
+              {librairies.map((item, ind) => (
+                <li key={ind}>
                   {" "}
                   <span className="text-orange l">▹</span> {item}
                 </li>
@@ -91,8 +91,8 @@ function About() {
           <h1 className="mb-2 underline text-sm ">BDD :</h1>
           <div className="flex ">
             <ul className="grid grid-cols-2 gap-5 text-xs">
-              {databases.map((item) => (
-                <li>
+              {databases.map((item, ind) => (
+                <li key={ind}>
                   {" "}
                   <span className="text-orange l">▹</span> {item}
                 </li>
@@ -102,8 +102,8 @@ function About() {
           <h1 className="mb-2 underline text-sm ">Outils :</h1>
           <div className="flex ">
             <ul className="grid grid-cols-3 gap-5 text-xs">
-              {Outils.map((item) => (
-                <li>
+              {Outils.map((item, ind) => (
+                <li key={ind}>
                   {" "}
                   <span className="text-orange l">▹</span> {item}
                 </li>

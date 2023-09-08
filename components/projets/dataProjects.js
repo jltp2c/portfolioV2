@@ -6,7 +6,7 @@ export const bigProjects = [
     status: "Projet personnel",
     desc: "Site de livraison de repas (gestion de commandes avec un admin board + authentification avec google auth.JS)",
     img: "/assets/img/eatasyouwant.png",
-    gif: "/assets/img/eatasyouwantGif.gif",
+    gif: "/assets/img/eatasyouwant.png",
     github: "https://github.com/jltp2c/eatAsyouWant",
     link: "/",
     onBuild: true,

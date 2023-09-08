@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 import { bigProjects } from "./dataProjects";
 import styles from "./projets.module.css";
 import Image from "next/image";
