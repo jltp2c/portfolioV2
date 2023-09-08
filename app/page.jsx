@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       router.push("/myportfolio");
-    }, 6000);
+    }, 5000);
 
     return () => {
       clearTimeout(timeout);
