@@ -1,3 +1,4 @@
+import Head from "next/head";
 import "../styles/globals.css";
 import { Quicksand } from "next/font/google";
 
@@ -14,9 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <head>
+      <Head>
         <link rel="icon" href="/favicon.ico" />
-      </head>
+      </Head>
       <body className={quicksand.className}>
         <main className="app">{children}</main>
       </body>

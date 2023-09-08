@@ -18,7 +18,7 @@ function NavBar() {
       </div>
       <div className={styles.menu}>
         <div>
-          <ul className="md:flex md:justify-end m-2 gap-6 p-1 text-xs">
+          <ul className="md:flex md:justify-end m-2 gap-6 p-1 text-sm">
             <li className="cursor-pointer ">
               <Link
                 activeClass="active"

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export const PageWrapper = ({ children }) => (
   <AnimatePresence>
     <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
+      initial={{ opacity: 0, scale: 1 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.7 }}>
       {children}
