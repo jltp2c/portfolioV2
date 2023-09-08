@@ -87,11 +87,10 @@ function Projets() {
                   fill
                 />
                 <Link href={projet.link}>
-                  <Image
+                  <img
                     src={projet.gif}
                     alt={projet.title}
                     className={styles.imageGif}
-                    fill
                   />
                 </Link>
               </div>

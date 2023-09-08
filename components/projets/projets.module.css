@@ -26,7 +26,7 @@
     box-shadow : none;
 }
     .imagePro{
-        visibility: visible;
+        visibility: hidden;
        filter: opacity(0.03) drop-shadow(0 0 0 #FF700A); 
     }
     .imageGif{
@@ -34,6 +34,7 @@
         border-radius: 10px;
         filter: opacity(0.03) drop-shadow(0 0 0 #FF700A); 
         transition: 1s ease all;
+object-fit: cover;
     }
     .imageGif:hover{
         filter: opacity(1);
