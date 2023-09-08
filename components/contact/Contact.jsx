@@ -17,8 +17,8 @@ function Contact() {
 
         <h2 className="text-justify text-gray mb-10">
           Je suis à la recherche d'opportunités passionnantes dans le
-          développement web, avec une expertise en TypeScript (React.js,
-          Node.js, Next.js, BDD(mongoDB, PostgreSQL)) afin de créer des
+          développement web, avec une expertise en TypeScript : React.js,
+          Node.js, Next.js, BDD(mongoDB, PostgreSQL) afin de créer des
           expériences web optimales. Engageons la conversation et faisons équipe
           pour créer quelque chose d'extraordinaire !
         </h2>
