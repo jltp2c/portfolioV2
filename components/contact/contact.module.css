@@ -1,8 +1,9 @@
 .iconesStacks{
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     height : 3.5rem;
+margin-bottom: 20px;
     animation: move 3s infinite ease alternate;
 }
 
@@ -17,8 +18,9 @@
   }
 }
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:568px) {
   .iconesStacks{
-   visibility: hidden;
+    display: none;
+   
 }
 }

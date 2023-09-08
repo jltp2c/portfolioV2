@@ -7,10 +7,10 @@ function Projets() {
   return (
     <div className=" projets p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
-        <h1 className="text-2xl font-extrabold md:text-4xl">
+        <h1 className="text-2xl font-extrabold md:text-3xl lg:text-4x">
           <span className="text-orange ">3.</span> MES PROJETS
         </h1>
-        <span className="w-10 h-1 bg-graydark ml-5 rounded-sm md:w-44"></span>
+        <span className="w-10 h-1 bg-graydark ml-5 rounded-sm md:w-80"></span>
       </div>
       <div className="projets flex gap-20 flex-col">
         {bigProjects.map((projet) => {
@@ -60,15 +60,19 @@ function Projets() {
                     />
                   </Link>
                 )}
-                <Link href={projet.link}>
-                  <Image
-                    src="/assets/img/link.png"
-                    width={20}
-                    height={20}
-                    className={styles.link}
-                    alt="link"
-                  />
-                </Link>
+                {projet.link === "" ? (
+                  ""
+                ) : (
+                  <Link href={projet.link}>
+                    <Image
+                      src="/assets/img/link.png"
+                      width={20}
+                      height={20}
+                      className={styles.link}
+                      alt="link"
+                    />
+                  </Link>
+                )}
               </div>
               <Link href={projet.link}>
                 <Image

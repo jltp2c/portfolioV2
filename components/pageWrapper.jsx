@@ -20,8 +20,8 @@ export const PageWrapper2 = ({ children }) => (
       animate={{ opacity: 1, scale: 1 }}
       transition={{
         type: "spring",
-        stiffness: 240,
-        damping: 10,
+        stiffness: 280,
+        damping: 15,
       }}>
       {children}
     </motion.div>

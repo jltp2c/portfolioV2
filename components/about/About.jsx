@@ -25,7 +25,7 @@ function About() {
   return (
     <div className="about p-14 md:h-[calc(100vh+10rem)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
       <div className="w-full flex items-center ">
-        <h1 className="text-2xl font-extrabold md:text-4xl">
+        <h1 className="text-2xl font-extrabold md:text-3xl lg:text-4xl">
           <span className="text-orange ">1.</span> QUI SUIS-JE ?
         </h1>
         <span className=" w-10 h-1 bg-graydark ml-5 rounded-sm md:w-60 lg:w-96"></span>

@@ -9,13 +9,13 @@ function Experiences() {
   return (
     <div className="experiences p-14 text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto">
       <div className="w-full flex items-center ">
-        <h1 className="text-2xl font-extrabold md:text-4xl">
+        <h1 className="text-2xl font-extrabold md:text-3xl lg:text-4x">
           <span className="text-orange ">2.</span> MES EXPÉRIENCES
         </h1>
-        <span className="w-10 h-1 bg-graydark ml-5 rounded-sm md:w-44"></span>
+        <span className="w-10 h-1 bg-graydark ml-5 rounded-sm md:w-80"></span>
       </div>
-      <h1 className="font-bold mt-10 md:text-xl">
-        Expériences professionnelles
+      <h1 className="font-bold mt-10 text-xl">
+        <span className="text-orange">▽ </span>Expériences professionnelles
       </h1>
       <div className="flex flex-col justify-center gap-8 md:flex-row md:w-2/3">
         <div className="title flex gap-1 justify-center items-center md:flex-col md:justify-normal">
@@ -52,7 +52,9 @@ function Experiences() {
           ))}
         </div>
       </div>
-      <h1 className="font-bold md:text-xl">Formations</h1>
+      <h1 className="font-bold text-xl">
+        <span className="text-orange">▽ </span>Formations
+      </h1>
       <Formations />
     </div>
   );
