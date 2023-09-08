@@ -17,10 +17,10 @@ function Contact() {
 
         <h2 className="text-justify text-gray mb-10">
           Je suis à la recherche d'opportunités passionnantes dans le
-          développement web, avec une expertise en TypeScript avec du React,
-          Node.js, Next.js pour créer des expériences web optimales. Engageons
-          la conversation et faisons équipe pour créer quelque chose
-          d'extraordinaire !
+          développement web, avec une expertise en TypeScript (React.js,
+          Node.js, Next.js, BDD(mongoDB, PostgreSQL)) afin de créer des
+          expériences web optimales. Engageons la conversation et faisons équipe
+          pour créer quelque chose d'extraordinaire !
         </h2>
         <div className={styles.iconesStacks}>
           <Image src="/assets/icones/typescript.png" width={50} height={40} />
