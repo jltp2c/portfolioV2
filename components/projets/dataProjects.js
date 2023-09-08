@@ -8,7 +8,7 @@ export const bigProjects = [
     img: "/assets/img/eatasyouwant.png",
     gif: "/assets/img/eatasyouwantGif.gif",
     github: "https://github.com/jltp2c/eatAsyouWant",
-    link: "/",
+    link: "",
     onBuild: true,
   },
   {
