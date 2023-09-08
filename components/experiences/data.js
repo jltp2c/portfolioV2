@@ -6,8 +6,8 @@ export const experiences = [
     date: "Dec 2022 - avr 2023",
     projets: [
       "Game POO : coder un jeu Javascript Vanilla",
-      "Tekko: coder un projet Back-End structure Node.JS | Express | MongoDB & Mongoose (4jours)",
-      "Heat: coder un projet Fullstack (React | Node | Express | MongoDB & Mongoose (1 semaine)",
+      "Tekko: coder un projet Back-End structure Node.JS | Express | MongoDB & Mongoose (Hackathon 4jours)",
+      "Heat: coder un projet Fullstack (React | Node | Express | MongoDB & Mongoose (Hackathon 1 semaine)",
     ],
   },
   {
