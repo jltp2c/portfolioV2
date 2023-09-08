@@ -37,26 +37,32 @@ function About() {
             width={220}
             height={220}
             className={styles.portrait}
+            alt="portrait"
           />
         </div>
         <div className="flex flex-col gap-3 md:w-1/2">
           <p className="mb-5 text-sm  text-justify">
-            Bonjour ! Je me présente, Jean-Luc, et je réside actuellement à
-            <span className="text-orange"> Paris</span>. J'ai obtenu un diplôme
-            d'
-            <span>Ingénieur</span> et j'ai plus de 2 ans et demi d'expérience
-            dans la conduite de projets dans le domaine du nucléaire. De plus,
-            je possède des compétences dans la résolutions des problèmes
-            complexes liés à la conception du design mécanique. J'ai également
-            validé une{" "}
+            Bonjour ! Je suis <span className="text-orange"> Jean-Luc</span>, et
+            je suis prêt à propulser votre projet vers de nouveaux sommets !
+            Actuellement basé à Paris, je suis un
+            <span className="text-orange"> Ingénieur</span>, fort de plus de 2
+            ans et demi d'expérience réussie dans la gestion de projets
+            nucléaires. Mon expertise ne s'arrête pas là, j'aime résoudre les
+            solutions de problèmes complexes au développement Web, évidemment je
+            suis prêt à affronter les défis les plus ardus. De plus, j'ai
+            décroché une certification de{" "}
             <span className="text-orange">
-              certification de développeur Web de RNCP niveau 6{" "}
-            </span>{" "}
-            après avoir suivi une formation intensive de plus de 400 heures.
+              développeur Web de niveau 6 RNCP
+            </span>
+            , suite à une formation intensive de plus de 400 heures.
             <br />
-            Je suis ouvert ASAP aux nouvelles opportunités dans le domaine du
-            développement Web, avec une spécialisation en
-            <span className="text-orange"> Front-End/FullStack</span>.
+            Je suis avide de nouvelles opportunités dans le domaine du
+            développement Web, avec une spécialisation en{" "}
+            <span className="text-orange">Front-End/FullStack. </span>
+            <br />
+            Prêt à rejoindre votre équipe ASAP, je suis déterminé à apporter mon
+            énergie, mon expertise et ma passion pour l'innovation à chaque
+            projet.
           </p>
           <h1 className="mb-2 underline text-sm ">
             Langages de programmation :

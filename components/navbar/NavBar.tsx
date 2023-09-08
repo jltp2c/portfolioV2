@@ -2,13 +2,16 @@
 
 import { Link } from "react-scroll";
 import styles from "./navbar.module.css";
+import { PageWrapper2 } from "../pageWrapper";
 
 function NavBar() {
   return (
     <nav className="h-24">
-      <div className="absolute border-2 p-1 top-6 left-4 border-orange text-orange cursor-pointer rounded-sm font-bold ">
-        <Link href="/">JLT</Link>
-      </div>
+      <PageWrapper2>
+        <div className="absolute border-2 p-1 top-6 left-4 border-orange text-orange cursor-pointer rounded-sm font-bold ">
+          <a href="/">JLT</a>
+        </div>
+      </PageWrapper2>
       <input type="checkbox" className={styles.toggler} />
       <div className={styles.hamburger}>
         <div></div>
@@ -60,11 +63,11 @@ function NavBar() {
                 <span className={styles.number}>4.</span> Contact
               </Link>
             </li>
-            <li className="cursor-pointer">
+            <div className="cursor-pointer">
               <a href="/assets/cv/cv.pdf" target="_blank">
                 <span className={styles.cv}>Curriculum Vitae</span>
               </a>
-            </li>
+            </div>
           </ul>
         </div>
       </div>

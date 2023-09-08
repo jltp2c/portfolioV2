@@ -10,12 +10,13 @@ function Formations() {
         {formations.map((exp, index) => {
           return (
             <button
-              className="rounded-sm  p-1 transition-transform text-xs"
+              className="rounded-sm m-1 p-1 transition-transform text-xs md:text-sm"
               style={{
                 background: selected === index ? "#ff700a3c" : "#111111",
                 color: selected === index ? "#ff700a" : "#8492a6",
               }}
-              onClick={() => setSelected(index)}>
+              onClick={() => setSelected(index)}
+              key={index}>
               {exp.entreprise}
             </button>
           );

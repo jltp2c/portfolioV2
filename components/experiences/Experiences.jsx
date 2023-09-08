@@ -22,7 +22,7 @@ function Experiences() {
           {experiences.map((exp, index) => {
             return (
               <button
-                className="rounded-sm p-1 m-2 transition-transform text-xs"
+                className="rounded-sm p-1 m-2 transition-transform text-xs md:text-sm"
                 key={index}
                 style={{
                   background: selected === index ? "#ff700a3c" : "#111111",
