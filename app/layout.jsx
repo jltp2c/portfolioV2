@@ -8,8 +8,11 @@ const quicksand = Quicksand({
 });
 
 export const metadata = {
-  title: "Jean-Luc TAN",
-  description: "PortFolio",
+  title: "Jean-Luc TAN | Portfolio Personnel",
+  description: "Portfolio",
+  icons: {
+    icon: ["/favicon.ico?=4"],
+  },
 };
 
 export default function RootLayout({ children }) {
