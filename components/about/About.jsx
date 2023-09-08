@@ -10,14 +10,7 @@ function About() {
     "HTML",
     "CSS (Sass / Tailwind / Bootstrap)",
   ];
-  const librairies = [
-    "React",
-    "Node",
-    "Express",
-    "Redux toolkit",
-    "Next.JS",
-    "Prisma",
-  ];
+  const librairies = ["React", "Node", "Express", "Redux", "Next.JS", "Prisma"];
   const databases = ["NoSQL (Mongoose/MongoDB)", "SQL (postgreSQL)"];
 
   const Outils = ["Git", "Webpack", "Netlify", "Firebase", "Babel"];
