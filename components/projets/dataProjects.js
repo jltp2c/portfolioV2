@@ -4,7 +4,7 @@ export const bigProjects = [
     title: "EatAsYouWant",
     stacks: "Typescript - NextJs - PostgreSQL - Prisma",
     status: "Projet personnel",
-    desc: "Site de livraison de repas (gestion de commandes avec un admin board + authentification avec google auth.JS)",
+    desc: "Site de livraison de repas (gestion de commandes avec un admin board + authentification avec google auth.JS + state management Zustang)",
     img: "/assets/img/eatasyouwant.png",
     gif: "/assets/img/eatasyouwantGif.gif",
     github: "https://github.com/jltp2c/eatAsyouWant",
