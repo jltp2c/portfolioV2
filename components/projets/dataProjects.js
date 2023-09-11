@@ -9,7 +9,7 @@ export const bigProjects = [
     gif: "/assets/img/eatasyouwantGif.gif",
     github: "https://github.com/jltp2c/eatAsyouWant",
     link: "",
-    onBuild: true,
+    onBuild: false,
   },
   {
     id: 2,
