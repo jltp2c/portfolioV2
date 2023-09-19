@@ -40,17 +40,17 @@ function About() {
             Actuellement basé à Paris, je suis un
             <span className="text-orange"> Ingénieur</span>, fort de plus de 2
             ans et demi d'expérience réussie dans la gestion de projets
-            nucléaires. Mon expertise ne s'arrête pas là, j'aime résoudre les
-            solutions de problèmes complexes au développement Web, évidemment je
-            suis prêt à affronter les défis les plus ardus. De plus, j'ai
-            décroché une certification de{" "}
+            nucléaires. Mon expertise ne s'arrête pas là, j'aime résoudre des
+            problèmes complexes en développement Web, et bien sûr, je suis prêt
+            à relever les défis les plus ardus. De plus, j'ai décroché une
+            certification de{" "}
             <span className="text-orange">
               développeur Web de niveau 6 RNCP
             </span>
             , suite à une formation intensive de plus de 400 heures.
             <br />
-            Je suis avide de nouvelles opportunités dans le domaine du
-            développement Web, avec une spécialisation en{" "}
+            Je suis enthousiaste à l'idée de saisir de nouvelles opportunités
+            dans le domaine du développement Web, avec une spécialisation en{" "}
             <span className="text-orange">Front-End/FullStack. </span>
             <br />
             Prêt à rejoindre votre équipe ASAP, je suis déterminé à apporter mon
