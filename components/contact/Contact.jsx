@@ -50,12 +50,12 @@ function Contact() {
           <Link
             className="border-2 border-orange p-2 hover:bg-lightorange transition-all rounded-md"
             href="mailto:'jeanluc.tan75@gmail.com'">
-            Mon mail
+            Mail
           </Link>
           <Link
             className="border-2 border-orange p-2 hover:bg-lightorange transition-all rounded-md"
             href="https://github.com/jltp2c">
-            Mon github
+            Github
           </Link>
 
           <Link
