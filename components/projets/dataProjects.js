@@ -1,8 +1,20 @@
 export const bigProjects = [
   {
     id: 1,
-    title: "EatAsYouWant",
+    title: "BikeTrackr",
     stacks: "Typescript - NextJs - PostgreSQL - Prisma",
+    status: "Projet personnel",
+    desc: "Site tracking des vélos volés (Localisation + authentification avec auth Clerk)",
+    img: "/assets/img/onload.png",
+    gif: "/assets/img/onload.png",
+    github: "https://github.com/jltp2c/BikeTrackr",
+    link: "",
+    onBuild: true,
+  },
+  {
+    id: 1,
+    title: "EatAsYouWant",
+    stacks: "Typescript - NextJs - PostgreSQL - Prisma - Zustang",
     status: "Projet personnel",
     desc: "Site de livraison de repas (gestion de commandes avec un admin board + authentification avec google auth.JS + state management Zustang)",
     img: "/assets/img/eatasyouwant.png",
@@ -43,20 +55,6 @@ export const bigProjects = [
     desc: "Refonte from scratch : site web responsive avec React.JS / Strapi (gestion de client) + design pour 'la Ptite cuisine de Picpus'",
     img: "/assets/img/laPtiteCuisine.png",
     gif: "/assets/img/laPtiteCuisineGif.gif",
-    github: "",
-    link: "https://www.laptitecuisine.fr/",
-    onBuild: false,
-  },
-];
-
-export const smallProject = [
-  {
-    id: 1,
-    title: "La P'tite Cuisine",
-    stacks: "React.JS - Sass",
-    status: "Projet Freelance",
-    desc: "",
-    img: "",
     github: "",
     link: "https://www.laptitecuisine.fr/",
     onBuild: false,
