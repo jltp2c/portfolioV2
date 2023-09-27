@@ -61,7 +61,7 @@ function Contact() {
           <Link
             className="border-2 border-orange p-2 hover:bg-lightorange transition-all rounded-md"
             href="https://linkedin.com/in/jeanluctan">
-            Mon linkedin
+            linkedin
           </Link>
         </div>
       </div>
