@@ -1,18 +1,6 @@
 export const bigProjects = [
   {
     id: 1,
-    title: "BikeTrackr",
-    stacks: "Typescript - NextJs - PostgreSQL - Prisma",
-    status: "Projet personnel",
-    desc: "Site tracking des vélos volés (Localisation + authentification avec auth Clerk)",
-    img: "/assets/img/onload.png",
-    gif: "/assets/img/onload.png",
-    github: "https://github.com/jltp2c/BikeTrackr",
-    link: "",
-    onBuild: true,
-  },
-  {
-    id: 1,
     title: "EatAsYouWant",
     stacks: "Typescript - NextJs - PostgreSQL - Prisma - Zustang",
     status: "Projet personnel",
