@@ -8,12 +8,12 @@ function About() {
     "JavaScript (ES6)",
     "TypeScript",
     "HTML",
-    "CSS (Sass / Tailwind / Bootstrap)",
+    "CSS (Sass / Tailwind / Material-UI)",
   ];
-  const librairies = ["React", "Node", "Express", "Redux", "Next.JS", "Prisma"];
-  const databases = ["NoSQL (Mongoose/MongoDB)", "SQL (postgreSQL)"];
+  const librairies = ["React", "Node", "Express", "Redux", "Next.JS"];
+  const databases = ["NoSQL (MongoDB)", "SQL (postgreSQL/MySQL)"];
 
-  const Outils = ["Git", "Webpack", "Netlify", "Firebase", "Babel"];
+  const Outils = ["Git", "Webpack", "Netlify", "Vite", "AWS-lambda"];
 
   return (
     <div className="about p-14 md:h-[calc(100vh+10rem)] text-graylight flex flex-col gap-14 justify-center items-center lg:w-2/3 mx-auto ">
@@ -40,18 +40,18 @@ function About() {
             Actuellement basé à Paris, je suis un
             <span className="text-orange"> Ingénieur</span>, fort de plus de 2
             ans et demi d'expérience réussie dans la gestion de projets
-            nucléaires. Mon expertise ne s'arrête pas là, j'aime résoudre des
-            problèmes complexes en développement Web, et bien sûr, je suis prêt
-            à relever les défis les plus ardus. De plus, j'ai décroché une
-            certification de{" "}
+            nucléaires et{" "}
             <span className="text-orange">
-              développeur Web de niveau 6 RNCP
+              1 an d'expérience en tant que développeur Fullstack
+            </span>{" "}
+            dans une startup. Mon expertise ne s'arrête pas là, j'aime résoudre
+            des problèmes complexes en développement Web, et bien sûr, je suis
+            prêt à relever les défis les plus ardus. Je suis enthousiaste à
+            l'idée de saisir de nouvelles opportunités dans le domaine du
+            développement Web, avec une spécialisation en{" "}
+            <span className="text-orange">
+              FullStack avec une appétence Front-End.{" "}
             </span>
-            , suite à une formation intensive de plus de 400 heures.
-            <br />
-            Je suis enthousiaste à l'idée de saisir de nouvelles opportunités
-            dans le domaine du développement Web, avec une spécialisation en{" "}
-            <span className="text-orange">Front-End/FullStack. </span>
             <br />
             Prêt à rejoindre votre équipe ASAP, je suis déterminé à apporter mon
             énergie, mon expertise et ma passion pour l'innovation à chaque

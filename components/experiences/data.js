@@ -1,13 +1,14 @@
 export const experiences = [
   {
     id: 1,
-    entreprise: "Ironhack",
+    entreprise: "PitchBoy",
     status: "Développeur Fullstack",
-    date: "Dec 2022 - avr 2023",
+    date: "Nov 2023 - aujourd'hui",
     projets: [
-      "Game POO : coder un jeu Javascript Vanilla",
-      "Tekko: coder un projet Back-End structure Node.JS | Express | MongoDB & Mongoose (Hackathon 4jours)",
-      "Heat: coder un projet Fullstack (React | Node | Express | MongoDB & Mongoose (Hackathon 1 semaine)",
+      "Solution de formation permettant aux collaborateurs de s’entrainer en situation réelle pilotée par l’intelligence artificielle conversationnelle. La solution possèdent 3 applications web avec une architecture de microservices utilisant CQRS & Event Sourcing",
+      "Front-end : Typescript (React / Material UI / Vite / webpack)",
+      "Back-end : Typescript (Node)",
+      "Cloud : AWS infra (S3,RDS, lambda,Api Gateway, dynamoDB...)",
     ],
   },
   {
@@ -48,6 +49,9 @@ export const formations = [
     descr: [
       "Front-end technologies : HTML5 | CSS3 | Javascript (ES6) | REACT",
       "Back end technologies : ExpressJS | NodeJS | MongoDB | Mongoose",
+      "Game POO : coder un jeu Javascript Vanilla",
+      "Tekko: coder un projet Back-End structure Node.JS | Express | MongoDB & Mongoose (Hackathon 4jours)",
+      "Heat: coder un projet Fullstack (React | Node | Express | MongoDB & Mongoose (Hackathon 1 semaine)",
     ],
   },
 

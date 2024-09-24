@@ -1,5 +1,6 @@
 import React from "react";
 import { PageWrapper } from "../../components/pageWrapper.jsx";
+import ChatBot from "./ChatBot.jsx";
 
 function Accueil() {
   return (
@@ -20,6 +21,7 @@ function Accueil() {
           développement WEB avec une spécialisation
           <span className="text-orange"> Front-end/FullStack.</span>
         </p>
+        <ChatBot />
       </div>
     </PageWrapper>
   );

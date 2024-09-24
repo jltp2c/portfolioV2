@@ -1,6 +1,18 @@
 export const bigProjects = [
   {
     id: 1,
+    title: "PitchBoy - Simulation en IA conversationnelle",
+    stacks: "Typescript - React - Node - AWS - Material-UI",
+    status: "Projet professionel",
+    desc: "Solution de formation permettant aux collaborateurs de s’entrainer en situation réelle pilotée par l’intelligence artificielle conversationnelle. La solution possèdent 3 applications web avec une architecture de microservices utilisant CQRS & Event Sourcing",
+    img: "/assets/img/pitchboy.png",
+    gif: "/assets/img/pitchboy.gif",
+    github: "",
+    link: "https://pitchboy.co/",
+    onBuild: false,
+  },
+  {
+    id: 2,
     title: "EatAsYouWant",
     stacks: "Typescript - NextJs - PostgreSQL - Prisma - Zustang",
     status: "Projet personnel",
@@ -12,7 +24,7 @@ export const bigProjects = [
     onBuild: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "HEAT",
     stacks: "React.JS - Node.JS - Express.JS - MongoDB",
     status: "Projet Hackaton IRONHACK : 2ème Prix ",
@@ -24,7 +36,7 @@ export const bigProjects = [
     onBuild: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Tekko",
     stacks: "NodeJS - ExpressJS - Axios- HBS",
     status: "Projet Hackaton IRONHACK",
@@ -36,7 +48,7 @@ export const bigProjects = [
     onBuild: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "La P'tite Cuisine",
     stacks: "React.JS - Sass - Strapi",
     status: "Projet Freelance",
